@@ -10,7 +10,6 @@ public class BunTest {
         Bun bun = new Bun("wendy's", 10000.0F);
         assertThat(bun.getName(), equalTo("wendy's"));
     }
-
     @Test
     public void testGetBunPrice() {
         Bun bun = new Bun("wendy's", 10000.0F);
